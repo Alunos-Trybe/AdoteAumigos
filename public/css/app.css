@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: lazy;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+:root {
+    --primary-color: #ed802a;
+    --secondary-color: #ff0063;
+    --tertiary-color: #474449;
+    --error-color: crimson;
+    --success-color: #00c21d;
+    --background-navbar: #020122;
+  }

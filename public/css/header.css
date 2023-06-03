@@ -1,0 +1,97 @@
+.Header{
+    width: 100vw;
+    height: 100px;
+    background-color: var(--background-navbar);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+}
+
+.Header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.Header__logo{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.Header__links{
+    width: 50%     ;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.Header_links-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.Header_links-list li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.Header_links-list li:hover .link-point {
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.link-point{
+    display: none;
+    transition: all 0.5s ease-in-out;
+
+}
